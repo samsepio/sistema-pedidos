@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+        <head>
+                <meta charset="utf-8">
+                <meta name="author"content="walter">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                <title>SistemaPedidos</title>
+        </head>
+        <body class="animted bounceInDown">
+                <nav class="navbar navbar-dark bg-dark">
+                        <a class="navbar-brand"href="/">Inicio</a>
+                        <a class="navbar-brand"href="/signup">Registrate</a>
+                        <a class="navbar-brand"href="/signin">Inicia Secion</a>
+                </nav>
+                <br>
+		<nav class="navbar navbar-light bg-light">
+			<a class="navbar-brand" href="#">
+				<img src="/img/portatil.jpg" width="35" height="35" class="d-inline-block align-top" alt="">
+				Portatiles
+			</a>
+			<button class="btn btn-success">Pedir</button>
+		</nav>
+		<br>
+		<nav class="navbar navbar-light bg-light">
+                        <a class="navbar-brand" href="#">
+                                <img src="/img/bideobin.jpg" width="35" height="35" class="d-inline-block align-top" alt="">
+                                Video beam
+                        </a>
+			<a class="btn btn-success"href="/pedir/<%= users._id%>">Pedir</a>
+                </nav>
+		<br>
+		<nav class="navbar navbar-light bg-light">
+                        <a class="navbar-brand" href="#">
+                                <img src="/img/parlantes.jpeg" width="35" height="35" class="d-inline-block align-top" alt="">
+                                Parlantes
+                        </a>
+                        <button class="btn btn-success">Pedir</button>
+                </nav>
+	</body>
+</html>
